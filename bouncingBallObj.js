@@ -41,7 +41,7 @@ function movement(ballObject){
 addBallObj.onclick=function(){
    var ballDiv=createBall();
    var movobj=new movement(ballDiv);
-   window.setInterval(function(){movobj.ballAnimation()},100);
+   window.setInterval(movobj.ballAnimation(),100);
 
 }
 
